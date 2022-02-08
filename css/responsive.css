@@ -1,0 +1,64 @@
+/*  For Large Large Screen Sm (640px) */
+@media (min-width:640px){
+    .container{
+        max-width:640px ;
+    }
+    #nav{
+        flex-direction: row !important;
+    }
+    #nav .toggle-btn{
+        display: none;
+    }
+    
+    .sm-text-xl{
+        font-size: 3em;
+    }
+}
+/*  For Large Large Screen md (786px) */
+@media (min-width:786px){
+    .container{
+        max-width:786px ;
+    }
+    .md-text-left{
+        text-align: left;
+    }
+    .md-mx-initial{
+        margin: initial;
+    }
+}
+/*  For Large Large Screen lg (1024px) */
+@media (min-width:1024px){
+    .container{
+        max-width:1024px ;
+    }
+    .collapse{
+        max-height: initial !important;
+    }
+    .collapse ul{
+        flex-direction: row !important;
+    }
+    .active{
+        max-height: 10% !important;
+    }
+    .lg-cols-2{
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .lg-cols-3{
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+
+}
+/*  For Large Large Screen XL (1280px) */
+@media (min-width:1280px){
+    .container{
+        max-width:1280px ;
+    }
+    #nav{
+        background: transparent !important;
+    }
+    #nav .flex-initial ul  button {
+        display: inline-block !important;
+    }
+    
+
+}
